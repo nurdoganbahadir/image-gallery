@@ -8,7 +8,9 @@ function Homepage() {
         <div className="pictures">
           {data.map((item) => (
             <div className="picture">
-              <img src={item.src.large} alt="" />
+              <div className="picture-hover">
+                <img src={item.src.large} alt="" />
+              </div>
               <h3>{item.photographer}</h3>
             </div>
           ))}

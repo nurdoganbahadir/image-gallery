@@ -27,7 +27,17 @@ h1 {
 .picture {
   padding: 1rem;
 }
+.picture-hover {
+  width: 250px;
+  height: 360px;
+  overflow: hidden;
+}
 img {
   width: 250px;
   height: 360px;
+  transition: all 0.5s;
+  overflow: hidden;
+}
+img:hover {
+  transform: scale(120%);
 }
