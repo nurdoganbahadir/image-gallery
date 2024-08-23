@@ -14,6 +14,11 @@ h1 {
   text-align: center;
   color: blue;
 }
+h3 {
+  color: gray;
+  font-weight: 300;
+  padding: 8px 0px 0px 8px;
+}
 
 .imageContainer {
   margin: auto;
