@@ -2,11 +2,11 @@
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 h1 {
@@ -15,3 +15,19 @@ h1 {
   color: blue;
 }
 
+.imageContainer {
+  margin: auto;
+}
+.pictures {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.picture {
+  padding: 1rem;
+}
+img {
+  width: 250px;
+  height: 360px;
+}
